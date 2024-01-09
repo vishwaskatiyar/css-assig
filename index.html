@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML assignment</title>
+    <style>
+      body {
+        background-color: rgb(10, 10, 10);
+        height: 50px;
+      }
+
+      .maindiv {
+        height: 100vh;
+        width: 36%;
+        background-color: white;
+        margin: 0 34%;
+      }
+
+      header,
+      footer {
+        color: rgb(14, 14, 14);
+        background-color: rgb(243, 185, 173);
+        padding: 20px 20px;
+        height: 8%;
+      }
+
+      nav {
+        color: rgb(14, 14, 14);
+        background-color: rgb(243, 185, 173);
+        height: 4%;
+        padding: 15px 15px;
+      }
+
+      p,
+      header,
+      nav,
+      article,
+      footer {
+        font-size: 20px;
+        margin: 0 20px;
+      }
+      p {
+        height: 8%;
+        padding: 15px 15px;
+      }
+
+      span {
+        display: inline-block;
+        background-color: white;
+        height: 40%;
+        width: 8%;
+        border: 2px solid black;
+        margin-left: 28px;
+      }
+      .only {
+        background-color: rgb(0, 162, 216);
+        width: 45%;
+        padding: 15px;
+      }
+      .only p {
+        padding-left: 1px;
+        font-size: 25px;
+      }
+      .containerclass {
+        display: flex;
+        height: 40%;
+      }
+      #aside {
+        background-color: rgb(228, 209, 215);
+        height: 100%;
+        width: 32%;
+      }
+      .first {
+        margin-top: 20px;
+        background-color: rgba(155, 212, 220, 1);
+        width: 90%;
+        height: 18%;
+        margin-left: 10px;
+      }
+      .first1 {
+        margin-top: 20px;
+        background-color: rgba(255, 255, 255, 1);
+        border: 1px solid rgb(255, 252, 252);
+        width: 60%;
+        height: 18%;
+        margin-left: 26px;
+      }
+      #aside p {
+        padding-left: 10px;
+        font-size: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="maindiv">
+      <p>&laquo body &raquo</p>
+      <header>&laquo This is my heading &raquo</header>
+      <br />
+      <nav>
+        &laquo nav &raquo<span></span><span></span><span></span><span></span>
+      </nav>
+      <br />
+
+      <div class="containerclass">
+        <article class="only">
+          <p id="THIS">&laquo article &raquo</p>
+          <section class="first">&laquo section &raquo</section>
+
+          <section class="first">&laquo section &raquo</section>
+
+          <section class="first">&laquo section &raquo</section>
+        </article>
+        <article id="aside">
+          <p>&laquo aside &raquo</p>
+          <section class="first1"></section>
+          <section class="first1"></section>
+        </article>
+      </div>
+      <br />
+      <footer>&laquo footer &raquo</footer>
+    </div>
+  </body>
+</html>
